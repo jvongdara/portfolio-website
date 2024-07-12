@@ -1,4 +1,8 @@
-header {
+* {
+    box-sizing: border-box;
+  }
+
+  header {
     background-color: #dfdfdf;
     text-align: center;
     padding: 10px;
@@ -7,7 +11,7 @@ header {
     position: relative;
   }
 
-body {
+  body {
     background-color: #ffffff;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
@@ -21,10 +25,9 @@ body {
     line-height: 1.4;
   }
   h1 {
-    font-size: 2.75em;
+    font-size: 2.75em
     font-weight: 700;
     color: #20b025;
-
   }
   
   h2 {
@@ -40,7 +43,8 @@ body {
     font-size: 1.35em;
     font-weight: 400;
   }
-img {
+
+  img {
     width: 100%;
   }
 
@@ -57,9 +61,11 @@ img {
   a:visited { 
     color: #b2dd24;
   }
+
   a:active { 
     color: #146ae2;
   }
+
   .button {
     display: inline-block; 
     background-color: #09a704;
@@ -70,16 +76,19 @@ img {
     border-bottom: 2px solid #994c30; 
     transition: 0.2s opacity;
   }
+
   .button:hover {
     opacity: 0.8; 
     text-decoration: none;
   }
+
   .button.contact {
     background-color: transparent;
     color: #50ff5c;
     text-transform: uppercase;
     border: 2px solid #ff7f50;
   }
+
   .button.contact:hover {
     background-color: #ff7f50;
     color: #ffffff;
@@ -88,7 +97,7 @@ img {
   selector {
     position: relative;
   }
-  
+
   main {
     padding-top: 133px;
   }
@@ -99,35 +108,60 @@ img {
     padding: 0 20px;
     max-width: 1200px;
   }
-  * {
-    box-sizing: border-box;
-  }
 
   #work .row {
     margin: 25px 0;
   }
 
   #hero h1 {
-    text-align: left;
     margin: 0;
     padding: 0.67em 0;
+    text-align: center;
   }
 
-  .logo {
-    max-width: 250px;
+  #hero {
+    background-color: ff7f50;
+    padding: 16;
+    text-align: center;
+    align-items: center;
   }
+
+  #logo, .logo {
+    display: grid;
+    place-items: center;
+    height: center; 
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
+}
+
 
   nav > ul > li {
     display: inline-block;
   }
 
   nav > ul > li > a {
-    padding: 0 15px;
+    padding: 0 5px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
+    color: #1fff17;
+    position: relative;  
+    z-index: 0;
+    cursor: pointer;
+}
+
+  nav > ul > li > a :visited {
     color: #4a4a4a;
   }
-  
-  #hero {
-    background-color: #1fff17;
-  }
+
+  nav > ul > li > a :hover,
+  nav > ul > li > a :focus {
+    color: #1fff17;
+    text-decoration: none;
+}
+
+nav > ul > li > a :active {
+    color: #059700;
+}
