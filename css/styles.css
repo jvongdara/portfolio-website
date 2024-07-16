@@ -135,8 +135,8 @@
     box-shadow: #000000;
   }
 
-  #buttoncontact {
-    align-content: center;
+  #hero span {
+    display: block;
   }
 
   #about {
@@ -216,6 +216,7 @@ nav > ul > li > a :active {
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+
     header {
       text-align: unset;
       padding: 20px 0 13px;
@@ -226,6 +227,24 @@ Medium devices (640px and larger)
       float: right;
       margin-top: 4px;
     }
+
+    .col-md-4 {
+        width: 40%;
+      }
+    
+      .col-md-6 {
+        width: 60%;
+      }
+    
+      .col-md-5 {
+        width: 50%;
+      }
+      
+    [class*="col-"] {
+        float: left;
+        padding: 10px;
+      }
+
   }
 
 
