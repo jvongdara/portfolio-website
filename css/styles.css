@@ -280,9 +280,7 @@ nav > ul > li > a :active {
     display: inline-block;
     width: 36px;
 
- #skills-tools {
-        padding-bottom: 30px;
-      }
+#skills-tools { padding-bottom: 30px;}
 
 
 
