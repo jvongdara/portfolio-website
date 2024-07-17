@@ -72,6 +72,7 @@
     background-color: #09a704;
     color: #ffffff;
     font-weight: 400;
+    text-decoration: none;
     padding: 10px;
     border-radius: 5px;
     border-bottom: 2px solid #994c30; 
@@ -95,9 +96,6 @@
     color: #ffffff;
   }
 
-  selector {
-    position: relative;
-  }
 
   main {
     padding-top: 133px;
@@ -109,6 +107,37 @@
     padding: 0 20px;
     max-width: 1200px;
   }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.col {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+}
+
+.col-md-6 {
+    flex: 0 0 50%;
+}
+
+.col-md-4 {
+    flex: 0 0 33.33%;
+}
+
+.col-lg-4 {
+    flex: 0 0 33.33%;
+}
+
+.col-lg-3 {
+    flex: 0 0 25%;
+}
 
   #work .row {
     margin: 25px 0;
@@ -211,11 +240,10 @@ nav > ul > li > a :active {
 
 
 
-
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-@media only screen and (min-width: 640px) {
+ @media screen and (min-width: 640px) {
 
     header {
       text-align: unset;
@@ -228,17 +256,21 @@ Medium devices (640px and larger)
       margin-top: 4px;
     }
 
+    main {
+        font-size: 18px;
+      }
+
     .col-md-4 {
         width: 40%;
       }
-    
+      .col-md-5 {
+        width: 50%;
+      }
       .col-md-6 {
         width: 60%;
       }
     
-      .col-md-5 {
-        width: 50%;
-      }
+
       
     [class*="col-"] {
         float: left;
@@ -249,9 +281,43 @@ Medium devices (640px and larger)
 
 
 
-
   /* ==============================
 Large devices (1024px or larger)
 ================================= */
-@media only screen and (min-width: 1024px) {
-}
+ @media only screen and (min-width: 1024px) {
+
+    header {
+        text-align: unset;
+        padding: 20px 0 13px;
+      }
+    
+      nav {
+        width: auto;
+        float: right;
+        margin-top: 4px;
+      }
+  
+      .col-lg-4 {
+          width: 40%;
+        }
+      
+        .col-lg-6 {
+          width: 60%;
+        }
+      
+        .col-lg-5 {
+          width: 50%;
+        }
+        
+      [class*="col-"] {
+          float: left;
+          padding: 10px;
+        }
+  
+        .container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+          }
+
+    }
