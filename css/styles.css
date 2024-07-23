@@ -175,22 +175,23 @@ nav>ul>li>a:active {
     padding-right: 0;
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
     display: block;
-  }
+}
 
-  .navtoggle.responsive nav {
+.navtoggle.responsive nav {
     padding: 24px 0 0;
-  }
-  .navtoggle.responsive li  {
+}
+
+.navtoggle.responsive li {
     display: block;
     padding: 10px 0;
-    border-top: 1px solid rgba(255,127,80,0.5);
-  }
-  
-  .navtoggle.responsive li:last-child  {
+    border-top: 1px solid rgba(255, 127, 80, 0.5);
+}
+
+.navtoggle.responsive li:last-child {
     padding: 0 0 10px;
-  }
+}
 
 #about {
     text-align: center;
@@ -305,9 +306,9 @@ nav>ul>li>a:active {
         padding: 10px;
     }
 
-    nav > ul {
+    nav>ul {
         margin: 1em 0;
-      }
+    }
 
 
     nav>ul>li {
