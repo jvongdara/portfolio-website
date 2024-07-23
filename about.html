@@ -19,8 +19,8 @@
 <body>
 
   <header>
-    <div id="navigation">
-      <div class="container">
+    <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
         <picture>
           <img class="logo" src=img/jasonvongdara_logo6.jpg alt="jvlogo">
         </picture>
@@ -29,6 +29,7 @@
             <li><a href="index.html">Work</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
           </ul>
         </nav>
       </div>
@@ -43,10 +44,10 @@
         <h2> A UX/UI Designer from Ohio</h2>
       </div>
     </div>
-        <picture>
-          <source srcset="profilepicture.jpg" media="(max-width:500px)">
-          <img src="img/profilepicture.jpg" class="me" alt="My Profilepic">
-        </picture>
+    <picture>
+      <source srcset="profilepicture.jpg" media="(max-width:500px)">
+      <img src="img/profilepicture.jpg" class="me" alt="My Profilepic">
+    </picture>
 
     <div class="container">
       <h2> A UX/UI Designer from Ohio</h2>
@@ -142,4 +143,5 @@
 
   <script src="js/scripts.js"></script>
 </body>
+
 </html>
