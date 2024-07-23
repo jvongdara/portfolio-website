@@ -4,12 +4,11 @@
 
 
 header {
-    background-color: #dfdfdf;
-    text-align: center;
+    background-color: #ffffff;
     padding: 10px;
     margin: 10px;
-    border-bottom: 3px solid #555555;
-    position: relative;
+    border: 3px solid #000000;
+    position: fixed;
   }
 
 body {
@@ -184,6 +183,20 @@ animation: 34s cloud-move-reverse infinite alternate linear;
       color: #;
   }
   
+  .navtoggle li:not(:last-child) {
+    display: none;
+  }
+
+  .navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+  }
   
   #about {
     text-align: center;
@@ -292,8 +305,20 @@ animation: 34s cloud-move-reverse infinite alternate linear;
       [class*="col-"] {
           float: left;
           padding: 10px;
-  
       }
+
+      nav > ul > li {
+        display: inline-block;
+      }
+
+      .navtoggle li:not(:last-child) {
+        display: inline-block;
+      }
+
+      .navtoggle li:last-child {
+        display: none;
+      }
+      
   }
   
   /* ==============================
