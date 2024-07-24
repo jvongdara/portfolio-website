@@ -278,14 +278,19 @@ nav>ul>li>a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    /* Adjust the gap between the icons as needed */
+    gap: 40px;
+
 }
 
 .social a {
     display: inline-block;
-    width: 36px;
+    width: 60px;
 
+}
+
+#healthwealth {
+    text-align: center;
+    padding: 16px 0;
 }
 
 
