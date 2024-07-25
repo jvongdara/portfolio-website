@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-
 header {
     background-color: #ffffff;
     padding: 10px 0 4px;
@@ -22,94 +21,82 @@ body {
     box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4 {
-    line-height: 1.4;
+h1, h2, h3, h4 {
+  line-height: 1.4;
 }
-
 h1 {
-    font-size: 2.75em;
-    font-weight: 700;
-    color: #20b025;
-
+  font-size: 2.75em;
+  font-weight: 700;
+  color: #20b025;
 }
-
 h2 {
-    font-size: 2.25em;
-    font-weight: 700;
+  font-size: 2.25em;
+  font-weight: 700;
 }
-
 h3 {
-    font-size: 1.75em;
-    font-weight: 400;
+  font-size: 1.75em;
+  font-weight: 400;
 }
-
 h4 {
-    font-size: 1.35em;
-    font-weight: 400;
+  font-size: 1.35em;
+  font-weight: 400;
 }
-
 img {
-    width: 100%;
+  width: 100%;
 }
 
 a {
-    color: #000000;
-    text-decoration: underline;
+  color: #000000;
+  text-decoration: underline;
 }
-
 a:hover,
 a:focus {
-    color: #cc6540;
-    text-decoration: underline;
+  color: #cc6540;
+  text-decoration: underline;
 }
-
-a:visited {
-    color: #b2dd24;
+a:visited { 
+  color: #b2dd24;
 }
-
-a:active {
-    color: #146ae2;
+a:active { 
+  color: #146ae2;
 }
 
 .button {
-    display: inline-block;
+    display: inline-block; 
     background-color: #09a704;
     color: #ffffff;
     font-weight: 400;
     padding: 10px;
     border-radius: 5px;
-    border-bottom: 2px solid #994c30;
+    border-bottom: 2px solid #994c30; 
     transition: 0.2s opacity;
-}
-
-.button:hover {
-    opacity: 0.8;
+  }
+  
+  .button:hover {
+    opacity: 0.8; 
     text-decoration: none;
-}
-
-.button.contact {
+  }
+  
+  .button.contact {
     background-color: transparent;
     color: #50ff5c;
     text-transform: uppercase;
-    border: 2px solid #ff7f50;
-
-}
-
-.button.contact:hover {
+    border: 2px solid #302825;
+  }
+  
+  .button.contact:hover {
     background-color: #ff7f50;
     color: #ffffff;
-}
+  }
 
 selector {
     position: relative;
-}
+    }
 
 main {
     padding-top: 56px;
-}
+    }
+
 
 
 /* Layout styling */
@@ -126,7 +113,6 @@ main {
 .logo {
     max-width: 250px;
 }
-
 
 nav>ul {
     list-style-type: none;
@@ -145,17 +131,17 @@ nav>ul>li>a {
 }
 
 nav>ul>li>a:visited {
-    color: #;
+    color: #444888;
 }
 
 nav>ul>li>a:hover,
 nav>ul>li>a:focus {
-    color: #;
+    color: #f76414;
     text-decoration: none;
 }
 
 nav>ul>li>a:active {
-    color: #;
+    color: #731499;
 }
 
 .navtoggle li:not(:last-child) {
@@ -198,11 +184,9 @@ nav>ul>li>a:active {
     padding: 16px 0;
 }
 
-
 .container {
     margin: 0 16px;
 }
-
 
 #work .row {
     margin: 25px 0;
@@ -211,7 +195,6 @@ nav>ul>li>a:active {
 #work h2 {
     text-align: center;
 }
-
 
 #hero {
     background-color: #3b823b;
@@ -226,17 +209,12 @@ nav>ul>li>a:active {
     padding: 0.67em 0;
 }
 
-
 #hero span {
-    color: ;
-    font-weight: ;
     font-size:
-        display: block;
+    display block;
     line-height:
-        padding-top: 8px;
+    padding-top 8px;
 }
-
-
 
 .background h4 {
     margin: 24px 0 0 0;
@@ -245,7 +223,6 @@ nav>ul>li>a:active {
 .skills h4 {
     margin: 16px 0 8px 0;
 }
-
 
 .row {
     margin: 32px 0;
@@ -264,14 +241,11 @@ nav>ul>li>a:active {
 }
 
 #contact {
-    color: #;
-    font-weight: ;
     font-size: .8em;
     line-height: 1.2;
     padding-top: 8px;
     text-align: center;
 }
-
 
 .social {
     margin-top: 20px;
@@ -279,13 +253,11 @@ nav>ul>li>a:active {
     justify-content: center;
     align-items: center;
     gap: 40px;
-
 }
 
 .social a {
     display: inline-block;
     width: 60px;
-
 }
 
 #healthwealth {
@@ -304,29 +276,22 @@ nav>ul>li>a:active {
         width: 50%;
         margin-top: -20px;
     }
-
     [class*="col-"] {
         float: left;
         padding: 10px;
     }
-
     nav>ul {
         margin: 1em 0;
     }
-
-
     nav>ul>li {
         display: inline-block;
     }
-
     .navtoggle li:not(:last-child) {
         display: inline-block;
     }
-
     .navtoggle li:last-child {
         display: none;
     }
-
 }
 
 /* ==============================
@@ -336,24 +301,20 @@ nav>ul>li>a:active {
     .col-lg-5 {
         width: 41.66%;
     }
-
     .col-lg-7 {
         width: 58.33%;
         padding-bottom: 32px;
     }
-
     .col-lg-12 {
         width: 100%;
         margin-top: -18px;
     }
-
     .container {
         max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
         padding: 0 16px;
     }
-
 }
 
 
