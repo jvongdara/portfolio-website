@@ -253,13 +253,25 @@ nav>ul>li>a:active {
     align-items: center;
     gap: 40px;
 }
-
 .social ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0; /* Optionally remove default padding */
-    margin: 0;  /* Optionally remove default margin */
+    list-style-type: none;  /* Remove bullet points */
+    padding: 0;             /* Remove default padding */
+    margin: 0;              /* Remove default margin */
+    text-align: center;     /* Center the list items */
   }
+  
+  .social li {
+    display: inline-block;  /* Align the list items horizontally */
+    margin: 0 10px;         /* Add some space between the logos */
+  }
+  
+  .social img {
+    width: 50px;            /* Set a width for the logos */
+    height: auto;           /* Maintain the aspect ratio */
+    display: block;         /* Center the logos within their container */
+    margin: 0 auto;
+  }
+  
   
 
 .social a {
