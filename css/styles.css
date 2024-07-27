@@ -131,17 +131,17 @@ nav>ul>li>a {
 }
 
 nav>ul>li>a:visited {
-    color: #444888;
+    color: #61D2EB;
 }
 
 nav>ul>li>a:hover,
 nav>ul>li>a:focus {
-    color: #f76414;
+    color: #54FF54;
     text-decoration: none;
 }
 
 nav>ul>li>a:active {
-    color: #731499;
+    color: #3096AC;
 }
 
 .navtoggle li:not(:last-child) {
