@@ -249,13 +249,13 @@ nav>ul>li>a:active {
 
 .social {
     margin-top: 20px;
-    display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
 }
 
 .social ul {
+    display: flex;
     list-style-type: none;
     padding: 0; /* Optionally remove default padding */
     margin: 0;  /* Optionally remove default margin */
