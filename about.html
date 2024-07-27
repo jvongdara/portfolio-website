@@ -1,162 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
+    <title>About Jason</title>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>About Jason</title>
+    <script
+      src="https://kit.fontawesome.com/9f048eb618.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-    rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <script src="https://kit.fontawesome.com/9f048eb618.js" crossorigin="anonymous"></script>
-
-
-</head>
-
-<body>
-
-  <header>
-    <div class="container">
-      <div class="navtoggle" id="myNavtoggle">
-        <picture>
-          <img class="logo" src="img/jasonvongdara_logo6.jpg" alt="jvlogo">
-        </picture>
-        <nav>
-          <ul>
-            <li><a href="index.html">Work</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-  <main>
-
-    <div id="about">
+  <body>
+    <header>
       <div class="container">
-        <h2> Hi, My name is Jason</h2>
-        <h2> A UX/UI Designer from Ohio</h2>
-      </div>
-    </div>
-    <picture>
-      <source srcset="profilepicture.jpg" media="(max-width:400px)">
-      <img src="img/profilepicture.jpg" class="me" alt="My Profilepic">
-    </picture>
-
-    <div class="container">
-      <p>With a comprehensive understanding of various design facets, Jason embraces continuous learning &amp; growth to
-        stay at the forefront of design innovation.
-        He is a multidisciplinary designer &amp; digital artist. He is constantly finding inspiration in the world around
-        him &amp; fuses all of this together into the products/services he creates. He has cultivated a community around his
-        love for design &amp; found a broader appreciation for design-based expression.
-        Jason Vongdara has forms of experience &amp; education in:</p>
-
-      <ul>
-        <li><a>UX / UI Design</a></li>
-        <li><a>Graphic / Logo Design</a></li>
-        <li><a>Product Design</a></li>
-        <li><a>Typography</a></li>
-        <li><a>Brand Development</a></li>
-      </ul>
-
-      <a href="files/jason_vongdara_resume.pdf" class="button" download="">Download My Resume </a>
-
-    </div>
-
-    <div id="skills-tools">
-      <div class="container">
-        <div class="row">
-          <h2>Skills &amp; Tools</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 col-lg-7">
-            <h2> Skills </h2>
+        <div class="navtoggle" id="myNavtoggle">
+          <picture>
+            <img class="logo" src="img/jasonvongdara_logo6.jpg" alt="jvlogo" />
+          </picture>
+          <nav>
             <ul>
-              <li><a>UX / UI Design</a></li>
-              <li><a>Design &amp; User Research</a></li>
-              <li><a>Information Architecture</a></li>
-              <li><a>Human-Centered Design</a></li>
-              <li><a>Wire-framing &amp; Prototyping</a></li>
-              <li><a>Web/App Design</a></li>
-              <li><a>User &amp; Accessibility Testing</a></li>
-              <li><a>Graphic Design</a></li>
-              <li><a>Analytical Testing &amp; Research</a></li>
-              <li><a>Front-End Development</a></li>
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                  ><i class="fas fa-bars"></i
+                ></a>
+              </li>
             </ul>
-          </div>
-
-          <div class="col-md-6 col-lg-5">
-            <h2> Tools </h2>
-
-            <ul>
-              <li><a>Figma</a></li>
-              <li><a>Javascript</a></li>
-              <li><a>Procreate</a></li>
-              <li><a>Adobe XD</a></li>
-              <li><a>Blender</a></li>
-              <li><a>Microsoft Office</a></li>
-              <li><a>Sublime</a></li>
-              <li><a>Graphic Design</a></li>
-              <li><a>VS-Code</a></li>
-              <li><a>Adobe Photoshop</a></li>
-            </ul>
-          </div>
+          </nav>
         </div>
       </div>
-    </div>
+    </header>
 
-  </main>
+    <main>
+      <div id="about">
+        <div class="container">
+          <h2>Hi, My name is Jason</h2>
+          <h2>A UX/UI Designer from Ohio</h2>
+        </div>
+      </div>
+      <picture>
+        <source srcset="profilepicture.jpg" media="(max-width:400px)" />
+        <img src="img/profilepicture.jpg" class="me" alt="My Profilepic" />
+      </picture>
 
-  <footer>
-    <div id="contact">
-      <h2>Get in Touch</h2>
-      <p>Do you like my work and want to discuss opportunities? Please get in touch.</p>
-      <a href="mailto:vongdara31@gmail.com" class="button contact">Email me</a>
-  
-      <div class="social">
+      <div class="container">
+        <p>
+          With a comprehensive understanding of various design facets, Jason
+          embraces continuous learning &amp; growth to stay at the forefront of
+          design innovation. He is a multidisciplinary designer &amp; digital
+          artist. He is constantly finding inspiration in the world around him
+          &amp; fuses all of this together into the products/services he
+          creates. He has cultivated a community around his love for design
+          &amp; found a broader appreciation for design-based expression. Jason
+          Vongdara has forms of experience &amp; education in:
+        </p>
+
         <ul>
-          <li>
-            <a href="https://www.linkedin.com/in/jason-vongdara-60a7b585/">
-              <img src="img/linkedin_icon.svg" alt="linkedin">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/joicompany/?hl=en">
-              <img src="img/instagram_logo.svg" alt="instagram">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.behance.net/jasonvongdara">
-              <img src="img/behance_icon.svg" alt="behance">
-            </a>
-          </li>
-          <li>
-            <a href="https://wwwe.jvongdara.github.io/portfolio-website/index.html">
-              <img src="img/github_icon.svg" alt="github">
-            </a>
-          </li>
+          <li><a>UX / UI Design</a></li>
+          <li><a>Graphic / Logo Design</a></li>
+          <li><a>Product Design</a></li>
+          <li><a>Typography</a></li>
+          <li><a>Brand Development</a></li>
         </ul>
-        <br>
-      </div>
-      <div class="social">
-        <p>Copyright Jason Vongdara 2024</p>
-      </div>
-    </div>
-  </footer>
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/scripts.js"></script>
-</body>
+        <a href="files/jason_vongdara_resume.pdf" class="button" download=""
+          >Download My Resume
+        </a>
+      </div>
 
+      <div id="skills-tools">
+        <div class="container">
+          <div class="row">
+            <h2>Skills &amp; Tools</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 col-lg-7">
+              <h2>Skills</h2>
+              <ul>
+                <li><a>UX / UI Design</a></li>
+                <li><a>Design &amp; User Research</a></li>
+                <li><a>Information Architecture</a></li>
+                <li><a>Human-Centered Design</a></li>
+                <li><a>Wire-framing &amp; Prototyping</a></li>
+                <li><a>Web/App Design</a></li>
+                <li><a>User &amp; Accessibility Testing</a></li>
+                <li><a>Graphic Design</a></li>
+                <li><a>Analytical Testing &amp; Research</a></li>
+                <li><a>Front-End Development</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-6 col-lg-5">
+              <h2>Tools</h2>
+
+              <ul>
+                <li><a>Figma</a></li>
+                <li><a>Javascript</a></li>
+                <li><a>Procreate</a></li>
+                <li><a>Adobe XD</a></li>
+                <li><a>Blender</a></li>
+                <li><a>Microsoft Office</a></li>
+                <li><a>Sublime</a></li>
+                <li><a>Graphic Design</a></li>
+                <li><a>VS-Code</a></li>
+                <li><a>Adobe Photoshop</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div id="contact">
+        <h2>Get in Touch</h2>
+        <p>
+          Do you like my work and want to discuss opportunities? Please get in
+          touch.
+        </p>
+        <a href="mailto:vongdara31@gmail.com" class="button contact"
+          >Email me</a
+        >
+
+        <div class="social">
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/jason-vongdara-60a7b585/">
+                <img src="img/linkedin_icon.svg" alt="linkedin" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/joicompany/?hl=en">
+                <img src="img/instagram_logo.svg" alt="instagram" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.behance.net/jasonvongdara">
+                <img src="img/behance_icon.svg" alt="behance" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://wwwe.jvongdara.github.io/portfolio-website/index.html"
+              >
+                <img src="img/github_icon.svg" alt="github" />
+              </a>
+            </li>
+          </ul>
+          <br />
+        </div>
+        <div class="social">
+          <p>Copyright Jason Vongdara 2024</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
